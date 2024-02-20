@@ -1,5 +1,5 @@
 '''
-2215. Find the Difference of Two Arrays
+2215. Find the Difference of Two Arrays                                                  
 
 Example 1:
 
@@ -18,8 +18,8 @@ For nums1, nums1[2] and nums1[3] are not present in nums2. Since nums1[2] == num
 Every integer in nums2 is present in nums1. Therefore, answer[1] = [].
 
 '''
-
-def findDifference(nums1, nums2):
+     
+def findDifference(nums1, nums2):     
     n1 = set(nums1)
     n2 = set(nums2)
     angka = n1.union(n2)
