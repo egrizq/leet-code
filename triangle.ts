@@ -1,6 +1,6 @@
 function flipRightTriangle(n: number) {
     for (let i=n-1; i>=0; i--) {
-        let data = []
+        let data: any = []
         for (let j=i; j>=0; j--) {
             data.push("*")
         }
@@ -20,7 +20,7 @@ flipRightTriangle(10)
 
 function flipLeftTriangle(n: number) {
     for (let k=0; k<n; k++) {
-        let temp = []
+        let temp: any = []
 
         for (let j=1; j<=k; j++) {
             temp.push(" ")
@@ -46,7 +46,7 @@ flipLeftTriangle(5)
 
 function leftTriangle(n: number) {
     for (let i=1; i<=n; i++) {
-        let temp = []
+        let temp: any = []
 
         for (let j=n-i; j>0; j--) {
             temp.push(" ")
@@ -72,7 +72,7 @@ leftTriangle(5)
 
 function rightTriangle(n: number) {
     for (let i=1; i<=n; i++) {
-        let data = []
+        let data: any = []
         for (let j=0; j<i; j++) {
             data.push("*")
         }
